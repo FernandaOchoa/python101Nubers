@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/opt/python/latest/bin/python",
+    "python.dataScience.jupyterServerURI": "local"
+}
