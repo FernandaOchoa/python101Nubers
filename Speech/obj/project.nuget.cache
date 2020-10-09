@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4+dsjZvi5+/uGT0He7YGsG23wiY4Vlbwo/MEr4ICDjlaCuaq2olMpTsPZD5v0dftwaRAiJQepJ2NmzRs9zNbaw==",
+  "success": true,
+  "projectFilePath": "/home/codespace/workspace/python101Nubers/Speech/Speech.csproj",
+  "expectedPackageFiles": [
+    "/var/nuget/microsoft.cognitiveservices.speech/1.13.0/microsoft.cognitiveservices.speech.1.13.0.nupkg.sha512"
+  ],
+  "logs": []
+}

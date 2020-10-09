@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/home/codespace/.dotnet/store/|arch|/|tfm|",
+      "/var/nuget"
+    ]
+  }
+}

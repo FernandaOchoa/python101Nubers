@@ -1,0 +1,360 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Microsoft.CognitiveServices.Speech/1.13.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {}
+        },
+        "build": {
+          "build/Microsoft.CognitiveServices.Speech.props": {}
+        },
+        "runtimeTargets": {
+          "runtimes/linux-arm/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "assetType": "runtime",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.core.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so": {
+            "assetType": "native",
+            "rid": "linux-arm"
+          },
+          "runtimes/linux-arm64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "assetType": "runtime",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.core.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so": {
+            "assetType": "native",
+            "rid": "linux-arm64"
+          },
+          "runtimes/linux-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "assetType": "runtime",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.core.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          },
+          "runtimes/osx-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll": {
+            "assetType": "runtime",
+            "rid": "osx-x64"
+          },
+          "runtimes/osx-x64/native/libMicrosoft.CognitiveServices.Speech.core.dylib": {
+            "assetType": "native",
+            "rid": "osx-x64"
+          },
+          "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.core.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.codec.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.kws.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.silk_codec.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.core.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.codec.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.kws.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.silk_codec.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CognitiveServices.Speech/1.13.0": {
+      "sha512": "gXWDNbbIDYB41pcCJtps+Pq8OVdZtjgdUj5SEjZgAZEge7QbHsMGmpRklM06A2CVxjNoP+vf4zZ3URANHpYM7A==",
+      "type": "package",
+      "path": "microsoft.cognitiveservices.speech/1.13.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.CognitiveServices.Speech.props",
+        "build/REDIST.txt",
+        "build/Xamarin.iOS/Microsoft.CognitiveServices.Speech.targets",
+        "build/Xamarin.iOS/libMicrosoft.CognitiveServices.Speech.core.a",
+        "build/monoandroid/Microsoft.CognitiveServices.Speech.targets",
+        "build/monoandroid/libs/arm64-v8a/libMicrosoft.CognitiveServices.Speech.core.so",
+        "build/monoandroid/libs/arm64-v8a/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "build/monoandroid/libs/arm64-v8a/libMicrosoft.CognitiveServices.Speech.extension.silk_codec.so",
+        "build/monoandroid/libs/armeabi-v7a/libMicrosoft.CognitiveServices.Speech.core.so",
+        "build/monoandroid/libs/armeabi-v7a/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "build/monoandroid/libs/armeabi-v7a/libMicrosoft.CognitiveServices.Speech.extension.silk_codec.so",
+        "build/monoandroid/libs/x86/libMicrosoft.CognitiveServices.Speech.core.so",
+        "build/monoandroid/libs/x86/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "build/monoandroid/libs/x86/libMicrosoft.CognitiveServices.Speech.extension.silk_codec.so",
+        "build/native/Microsoft.CognitiveServices.Speech.targets",
+        "build/native/Win32/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/include/c_api/speechapi_c.h",
+        "build/native/include/c_api/speechapi_c_audio_config.h",
+        "build/native/include/c_api/speechapi_c_audio_stream.h",
+        "build/native/include/c_api/speechapi_c_audio_stream_format.h",
+        "build/native/include/c_api/speechapi_c_auto_detect_source_lang_config.h",
+        "build/native/include/c_api/speechapi_c_common.h",
+        "build/native/include/c_api/speechapi_c_connection.h",
+        "build/native/include/c_api/speechapi_c_conversation.h",
+        "build/native/include/c_api/speechapi_c_conversation_transcription_result.h",
+        "build/native/include/c_api/speechapi_c_conversation_translator.h",
+        "build/native/include/c_api/speechapi_c_diagnostics.h",
+        "build/native/include/c_api/speechapi_c_dialog_service_config.h",
+        "build/native/include/c_api/speechapi_c_dialog_service_connector.h",
+        "build/native/include/c_api/speechapi_c_error.h",
+        "build/native/include/c_api/speechapi_c_ext_audiocompression.h",
+        "build/native/include/c_api/speechapi_c_factory.h",
+        "build/native/include/c_api/speechapi_c_grammar.h",
+        "build/native/include/c_api/speechapi_c_intent_recognizer.h",
+        "build/native/include/c_api/speechapi_c_intent_result.h",
+        "build/native/include/c_api/speechapi_c_intent_trigger.h",
+        "build/native/include/c_api/speechapi_c_keyword_recognition_model.h",
+        "build/native/include/c_api/speechapi_c_language_understanding_model.h",
+        "build/native/include/c_api/speechapi_c_participant.h",
+        "build/native/include/c_api/speechapi_c_property_bag.h",
+        "build/native/include/c_api/speechapi_c_recognizer.h",
+        "build/native/include/c_api/speechapi_c_result.h",
+        "build/native/include/c_api/speechapi_c_session.h",
+        "build/native/include/c_api/speechapi_c_source_lang_config.h",
+        "build/native/include/c_api/speechapi_c_speaker_recognition.h",
+        "build/native/include/c_api/speechapi_c_speech_config.h",
+        "build/native/include/c_api/speechapi_c_speech_translation_config.h",
+        "build/native/include/c_api/speechapi_c_synthesizer.h",
+        "build/native/include/c_api/speechapi_c_translation_recognizer.h",
+        "build/native/include/c_api/speechapi_c_translation_result.h",
+        "build/native/include/c_api/speechapi_c_user.h",
+        "build/native/include/c_api/spxdebug.h",
+        "build/native/include/c_api/spxerror.h",
+        "build/native/include/cxx_api/speechapi_cxx.h",
+        "build/native/include/cxx_api/speechapi_cxx_audio_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_audio_data_stream.h",
+        "build/native/include/cxx_api/speechapi_cxx_audio_stream.h",
+        "build/native/include/cxx_api/speechapi_cxx_audio_stream_format.h",
+        "build/native/include/cxx_api/speechapi_cxx_auto_detect_source_lang_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_auto_detect_source_lang_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_class_language_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_common.h",
+        "build/native/include/cxx_api/speechapi_cxx_connection.h",
+        "build/native/include/cxx_api/speechapi_cxx_connection_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_connection_message.h",
+        "build/native/include/cxx_api/speechapi_cxx_connection_message_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation_transcriber.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation_transcription_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation_transcription_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation_translator.h",
+        "build/native/include/cxx_api/speechapi_cxx_conversation_translator_events.h",
+        "build/native/include/cxx_api/speechapi_cxx_dialog_service_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_dialog_service_connector.h",
+        "build/native/include/cxx_api/speechapi_cxx_dialog_service_connector_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_enums.h",
+        "build/native/include/cxx_api/speechapi_cxx_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_eventsignal.h",
+        "build/native/include/cxx_api/speechapi_cxx_grammar.h",
+        "build/native/include/cxx_api/speechapi_cxx_grammar_list.h",
+        "build/native/include/cxx_api/speechapi_cxx_grammar_phrase.h",
+        "build/native/include/cxx_api/speechapi_cxx_intent_recognition_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_intent_recognition_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_intent_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_intent_trigger.h",
+        "build/native/include/cxx_api/speechapi_cxx_keyword_recognition_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_keyword_recognition_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_keyword_recognition_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_keyword_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_language_understanding_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_participant.h",
+        "build/native/include/cxx_api/speechapi_cxx_phrase_list_grammar.h",
+        "build/native/include/cxx_api/speechapi_cxx_properties.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognition_async_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognition_base_async_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognition_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognition_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_session.h",
+        "build/native/include/cxx_api/speechapi_cxx_session_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_smart_handle.h",
+        "build/native/include/cxx_api/speechapi_cxx_source_lang_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_speaker_identification_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_speaker_recognition_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_speaker_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_speaker_verification_model.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_recognition_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_recognition_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesis_word_boundary_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_synthesizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_speech_translation_config.h",
+        "build/native/include/cxx_api/speechapi_cxx_string_helpers.h",
+        "build/native/include/cxx_api/speechapi_cxx_translation_eventargs.h",
+        "build/native/include/cxx_api/speechapi_cxx_translation_recognizer.h",
+        "build/native/include/cxx_api/speechapi_cxx_translation_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_user.h",
+        "build/native/include/cxx_api/speechapi_cxx_utils.h",
+        "build/native/include/cxx_api/speechapi_cxx_voice_profile.h",
+        "build/native/include/cxx_api/speechapi_cxx_voice_profile_client.h",
+        "build/native/include/cxx_api/speechapi_cxx_voice_profile_enrollment_result.h",
+        "build/native/include/cxx_api/speechapi_cxx_voice_profile_result.h",
+        "build/native/uap/ARM/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/uap/ARM64/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/uap/Win32/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/uap/x64/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/native/x64/Release/Microsoft.CognitiveServices.Speech.core.lib",
+        "build/net461/Microsoft.CognitiveServices.Speech.targets",
+        "lib/Xamarin.iOS/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/monoandroid/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/net461/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "lib/uap10.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "microsoft.cognitiveservices.speech.1.13.0.nupkg.sha512",
+        "microsoft.cognitiveservices.speech.nuspec",
+        "runtimes/linux-arm/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "runtimes/linux-arm/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.core.so",
+        "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so",
+        "runtimes/linux-arm/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "runtimes/linux-arm64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "runtimes/linux-arm64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.core.so",
+        "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so",
+        "runtimes/linux-arm64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "runtimes/linux-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "runtimes/linux-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.core.so",
+        "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.codec.so",
+        "runtimes/linux-x64/native/libMicrosoft.CognitiveServices.Speech.extension.kws.so",
+        "runtimes/osx-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.dll",
+        "runtimes/osx-x64/lib/netstandard2.0/Microsoft.CognitiveServices.Speech.csharp.xml",
+        "runtimes/osx-x64/native/libMicrosoft.CognitiveServices.Speech.core.dylib",
+        "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.codec.dll",
+        "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win-x64/native/Microsoft.CognitiveServices.Speech.extension.silk_codec.dll",
+        "runtimes/win-x64/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-x64/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win-x64/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.silk_codec.dll",
+        "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.codec.dll",
+        "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win-x86/native/Microsoft.CognitiveServices.Speech.extension.silk_codec.dll",
+        "runtimes/win-x86/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win-x86/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win-x86/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.silk_codec.dll",
+        "runtimes/win10-arm/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win10-arm/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win10-arm/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.silk_codec.dll",
+        "runtimes/win10-arm64/nativeassets/uap/Microsoft.CognitiveServices.Speech.core.dll",
+        "runtimes/win10-arm64/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.kws.dll",
+        "runtimes/win10-arm64/nativeassets/uap/Microsoft.CognitiveServices.Speech.extension.silk_codec.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Microsoft.CognitiveServices.Speech >= 1.13.0"
+    ]
+  },
+  "packageFolders": {
+    "/var/nuget": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/codespace/workspace/python101Nubers/Speech/Speech.csproj",
+      "projectName": "Speech",
+      "projectPath": "/home/codespace/workspace/python101Nubers/Speech/Speech.csproj",
+      "packagesPath": "/var/nuget",
+      "outputPath": "/home/codespace/workspace/python101Nubers/Speech/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "Microsoft.CognitiveServices.Speech": {
+            "target": "Package",
+            "version": "[1.13.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/opt/dotnet/sdks/3.1.301/sdk/3.1.301/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
