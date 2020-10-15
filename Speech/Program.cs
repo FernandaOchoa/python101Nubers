@@ -12,7 +12,7 @@ namespace HelloWorld {
         static async Task RecognizeSpeechAsync() {
             // Configuramos la información para accesar a los servicios.
             // Podemos usar la Clave 1 o Clave 2 que hemos creado con Servicio de Speech en Azure
-            var config = SpeechConfig.FromSubscription("383e5ef5f15d4a0ea9c4d111c4140d92", "southcentralus");
+            var config = SpeechConfig.FromSubscription("TUCLAVE", "TUREGION");
             
             // Agregamos el archivo de audio, en este caso es un hola.
             using (var audioInput = AudioConfig.FromWavFileInput("hola.wav"))
