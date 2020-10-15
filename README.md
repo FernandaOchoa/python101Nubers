@@ -8,7 +8,7 @@ En este repositorio encontraras los ejercicios de los módulos de Inteligencia A
 * [Sesión Conceptos](https://github.com/FernandaOchoa/python101Nubers/tree/main/SesionConceptos): Contiene un archivo con los conceptos más relevantes.
 * [Computer Vision](https://github.com/FernandaOchoa/python101Nubers/tree/main/ComputerVision):Contiene un ejercicio de Vision Computacional con Computer Vision
 * [Speech](https://github.com/FernandaOchoa/python101Nubers/tree/main/Speech): Contiene el ejercicio de Speech.
-
+* [Computer Vision (Semana 2)]
 ### Sesiones en vivo
 
 La sesiones en vivo quedaron grabadas y las puedes encontrar aquí:
