@@ -9,6 +9,8 @@ En este repositorio encontraras los ejercicios de los módulos de Inteligencia A
 * [Computer Vision](https://github.com/FernandaOchoa/python101Nubers/tree/main/ComputerVision):Contiene un ejercicio de Vision Computacional con Computer Vision
 * [Speech](https://github.com/FernandaOchoa/python101Nubers/tree/main/Speech): Contiene el ejercicio de Speech.
 * [Computer Vision (Semana 2)](https://github.com/FernandaOchoa/python101Nubers/blob/main/ComputerVision/VisionOCR.ipynb): Contiene ejemplos de Procesamiento de Imagenes y OCR
+* [Machine Learning Regresiones (Semana 2)](https://github.com/FernandaOchoa/python101Nubers/blob/main/MachineLearning/Regresiones.ipynb): Contiene ejercicios de Regresión Lineal y Múltiple.  
+
 ### Sesiones en vivo
 
 La sesiones en vivo quedaron grabadas y las puedes encontrar aquí:
@@ -20,3 +22,4 @@ La sesiones en vivo quedaron grabadas y las puedes encontrar aquí:
 ## Semana 2
 
 * [Sesión de Vision Computacional](https://web.microsoftstream.com/video/e6886cdb-2463-4df1-8542-46afdb5ddd4f?list=studio)
+* [Sesión Regresiones](https://web.microsoftstream.com/video/5417ed37-c44b-4a1b-bdd1-5340c6afef86)
