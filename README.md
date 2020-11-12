@@ -1,4 +1,8 @@
-# Semana de IA con Azure
+# NUBERS
+
+# [Guía para la certificación](https://github.com/FernandaOchoa/python101Nubers/blob/main/Guia/GuiaDeEstudio.md)
+
+## Semana de IA con Azure
 
 En este repositorio encontraras los ejercicios de los módulos de Inteligencia Artificial que resolvemos en el Training.
 
